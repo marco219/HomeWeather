@@ -35,7 +35,7 @@ public class fetchLastDataFromDB extends AsyncTask<Void, Void, Boolean> {
         BufferedReader reader;
         // Send data
         try {
-            URL url = new URL("http://massenza.ddns.net/getLastData.php");
+            URL url = new URL("http://lis.ddns.net/getLastData.php");
             URLConnection conn = url.openConnection();
             conn.setDoOutput(true);
             conn.setConnectTimeout(5000); //set timeout to 5 seconds

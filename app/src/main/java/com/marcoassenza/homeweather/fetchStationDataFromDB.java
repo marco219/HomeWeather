@@ -45,7 +45,7 @@ public class fetchStationDataFromDB extends AsyncTask<Integer, Void, Boolean> {
         BufferedReader reader;
 
         try {
-            URL url = new URL("http://massenza.ddns.net/getStationData.php?station_id=station_" + params[0]);
+            URL url = new URL("http://lis.ddns.net/getStationData.php?station_id=station_" + params[0]);
             Log.d("url",url.toString());
             URLConnection conn = url.openConnection();
             conn.setDoOutput(true);

@@ -24,7 +24,7 @@ public class HomeCardsAdapter extends RecyclerView.Adapter<HomeCardsAdapter.Card
     private static List<HomeCard> homeCards;
     private static ClickListener clickListener;
 
-    static String[] stations = {"Chambre Marco","Salon","Extérieur","Bassin"};
+    static String[] stations = {"Salon","Chambre Marco","Extérieur","Bassin"};
     PrettyTime p = new PrettyTime(new Locale("french"));
 
     public HomeCardsAdapter(List<HomeCard> homeCards) {
